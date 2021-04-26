@@ -1,0 +1,4 @@
+include ':export_cart'
+include ':module_cart'
+include ':app'
+rootProject.name = "Cart"

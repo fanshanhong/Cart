@@ -1,0 +1,10 @@
+apply plugin: 'maven'
+uploadArchives {
+    repositories.mavenDeployer {
+        pom.version = '1.0.0'
+        pom.artifactId = 'export_cart'
+        pom.groupId = 'com.fan.componentization.cart.export_cart'
+        repository(url: "file:///Volumes/Mechanical/G/maven/local-repo/")
+    }
+}
+

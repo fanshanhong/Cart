@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fan.componentization.module_cart">
+
+    <application>
+        <activity android:name=".CartMyRouteActivity"></activity>
+        <activity android:name=".CartMainActivity" />
+    </application>
+
+</manifest>
